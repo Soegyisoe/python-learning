@@ -19,4 +19,8 @@ jobs:
           python-version: "3.x"
 
       - name: Run Python file
-        run: python day7_gaming_guess.py
+        run: - name: List Python files
+  run: find . -type f -name "*.py" -print
+
+name: Run Python file
+run: python ./day7_gaming_guess.py
