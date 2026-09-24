@@ -21,6 +21,6 @@ jobs:
       - name: Run Python file
         run: - name: List Python files
   run: find . -type f -name "*.py" -print
-
-name: Run Python file
-run: python ./day7_gaming_guess.py
+name: List Python files
+run: find . -type f -name "*.py" -print
+name: Run Python filerun: python ./day7_gaming_guess.py
